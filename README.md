@@ -25,7 +25,7 @@ of what is passed as first parameter.
   ric([document.body, document.querySelector('#footer')])
 ```
 
-# Ric instance methods
+## Ric instance methods
 
 Once a ric instance is created, you have a list of methods you can use.
 
