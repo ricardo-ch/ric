@@ -1,5 +1,5 @@
 {
-  "name": "ric",
+  "name": "@ricardo-ch/ric",
   "version": "1.0.0",
   "description": "Ricardo mini framework for DOM manipulation and other things",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/ricardo-ch/ric.git"
   },
   "author": "Ricardo",
-  "license": "Apache License, Version 2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ricardo-ch/ric/issues"
   },
