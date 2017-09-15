@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Ricardo mini framework for DOM manipulation and other things",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": ["prettier --write", "git add"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ricardo-ch/ric.git"
@@ -13,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ricardo-ch/ric/issues"
   },
-  "homepage": "https://github.com/ricardo-ch/ric#readme"
+  "homepage": "https://github.com/ricardo-ch/ric#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.1.3"
+  }
 }
